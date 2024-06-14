@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing in</title>
+    <link rel="shortcut icon" href="./img/logo-icon-website.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <div class="container mt-5" id="background">
+        <div class="row align-items-stretch">
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
+                <img class="img-fluid border rounded shadow" src="./img/register-img.jpg" alt="" style="height: 700px; width: 800px; object-fit: cover;">
+            </div>
+            <div class="col">
+                <div class="text-end">
+                    <img class="mb-5" src="./img/logo-icon-title.png" alt="" style="width: 60px; height: auto;">
+                    <h2 class="fw-bold text-center">Crea tu cuenta</h2>
+                    <p class="text-center">Es totalmente gratis</p>
+
+                    <!-- Register -->
+
+                    <form action="#">
+                        <div class="d-flex input-group mb-2">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="floatingName" placeholder="Nombres" value="" required>
+                                <label for="floatingName">Nombres</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="floatingLastName" placeholder="Apellidos" value="" required>
+                                <label for="floatingLastName">Apellidos</label>
+                            </div>
+                        </div>
+
+                        <div class="form-floating mb-2">
+                            <input type="text" class="form-control" id="floatingPhone" placeholder="Teléfono" value="" required>
+                            <label for="floatingPhone">Teléfono</label>
+                        </div>
+
+                        <div class="d-flex input-group mb-2">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="floatingAddress" placeholder="Dirección" value="" required>
+                                <label for="floatingAddress">Dirección</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="floatingQuarter" placeholder="Barrio" value="" required>
+                                <label for="floatingBarrio">Barrio</label>
+                            </div>
+                        </div>
+
+                        <div class="d-flex mb-3">
+                            <label class="text-center me-3" for="formDate">Fecha de nacimiento</label>
+                            <input type="date" class="form-control" id="formDate" value="" required>
+                        </div>
+
+                        <div class="d-grid mb-2">
+                            <button class="btn btn-success" type="submit" style="font-weight: 500;">Registrarme</button>
+                        </div>
+
+                        <div class="d-grid my-2">
+                            <button class="btn btn-secondary" type="submit" style="font-weight: 500;"><img class="mx-1" src="./img/google.png" alt="" width="20px"> Registrarme con Google</button>
+                        </div>
+
+                        <div class="my-3 d-flex justify-content-center ">
+                            <span><a href="./login.html">¿Ya tienes una cuenta?</a></span>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="myscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
