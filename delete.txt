@@ -1,0 +1,14 @@
+<a class="btn-book-a-table" href="#book-a-table">Book a Table</a>
+<i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+<i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+<div class="d-grid my-3">
+    <button class="btn btn-secondary" type="button" style="font-weight: 500;"><img class="mx-2" src="./img/google.png" alt="" width="20px">Inicia con Google</button>
+</div>
+
+<div class="row g-2 justify-content-center" style="padding-left: 0px;">
+    <div class="col-md-6 d-flex align-items-center">
+        <label class="text-center me-4" for="entryDate" style="font-weight: 500;">Fecha:</label>
+        <input type="date" class="form-control mx-2" id="entryDate" value="" required>
+    </div>
+</div>
